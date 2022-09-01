@@ -1,0 +1,70 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>login page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assests/login.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+      
+        }
+        </style>
+</head>
+<body >
+    <div class="main">
+        <div class="image">
+            <img src="https://img.freepik.com/free-vector/mobile-login-concept-illustration_114360-83.jpg?w=2000" alt="login" class="login">
+        </div>
+        <form action="action_page.php" style="border:2px solid rgb(58, 24, 90)" class="form">
+            <div class="imgcontainer">
+                <img src="image/avatar.jpg" alt="Avatar" class="avatar">
+                <h1 >Login </h1>
+            </div>
+
+            <div class="container">
+    
+                <label for="Username"><b>Username  </b></label>
+                <input type="text" placeholder="Enter Username Or Mobile Number " name="Username  " required>
+      
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <div class="container">
+                <span class="psw"><a href="#"> forgot password?</a></span>
+                </div>
+
+                <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                </label>
+
+                <div class="clearfix">
+                    <button type="submit" class="loginbtn">Login</button>
+                </div>
+            </div>   
+
+            <div class="container2">
+                Or Sign Up By Using 
+                <a href="signup.jsp" >Signup</a>
+            </div> 
+
+              <!-- Social Icon-->
+            <div class="container3">
+                
+                   
+                    <!-- Add font awesome icons -->
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-google"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                       
+                
+            </div>
+        </form>
+    </div>
+</body>
+</html>
