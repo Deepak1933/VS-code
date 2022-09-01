@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(135, 137, 235);
+    font-family: cursive;
+}
+.form{
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 4px 8px #e32600;
+    border-radius: 10px;
+    height: 20vh;
+}

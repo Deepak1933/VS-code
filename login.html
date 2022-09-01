@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='login.css'>
+    
+</head>
+<body >
+  <div class="main">
+    <div class="image">
+       <img src="https://media.istockphoto.com/vectors/register-account-submit-access-login-password-username-internet-vector-id1281150061?k=20&m=1281150061&s=612x612&w=0&h=wpCvmggedXRECWK-FVL98MMllubyevIrXuUu50fdCqE=" alt="login" class="login">
+     </div>
+    <form action="action_page.php" style="border:2px solid rgb(58, 24, 90)" method="post">
+        <div class="imgcontainer">
+          <img src="avatar.jpg" alt="Avatar" class="avatar">
+          <h1 >Login</h1>
+        </div>
+
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+        </div>
+        
+        <div class="container">
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+        </div>
+
+        <div class="container1" >
+            <span class="psw"><a href="#"> forgot password?</a></span>
+        </div>
+
+        <div class="container2">
+            <label><input type="checkbox" checked="checked" > Remember me</label>
+        </div>
+
+        <div class="container">
+          <button type="submit">Login</button>
+        </div>
+
+        <div class="container3"><b>
+        Or Sign Up using 
+        </b>
+        </div> 
+  <!-- Social Icon-->
+    <div class="container4">
+      <form action="/action_page.php">
+       <div class="col">
+        <a href="#" class="fb btn">
+          <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+        </a>
+        <a href="#" class="twitter btn">
+          <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+        </a>
+        <a href="#" class="google btn">
+          <i class="fa fa-google fa-fw"></i> Login with Google+
+        </a>
+       </div>      
+      </form>
+    </div>
+    </form>
+  </div>
+      
+      
+    
+</body>
+</html>
